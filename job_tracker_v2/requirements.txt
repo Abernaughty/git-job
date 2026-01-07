@@ -1,0 +1,35 @@
+# Job Search System - Requirements
+# Python 3.11+
+
+# Core
+python-dotenv>=1.0.0
+pydantic>=2.0
+pydantic-settings>=2.0
+
+# HTTP / Scraping
+httpx>=0.25.0
+beautifulsoup4>=4.12.0
+lxml>=4.9.0
+
+# LLM
+anthropic>=0.40.0
+
+# GUI
+streamlit>=1.30.0
+plotly>=5.18.0
+altair>=5.0
+
+# Scheduling
+apscheduler>=3.10.0
+
+# Utilities
+tenacity>=8.2.0
+structlog>=23.0
+python-dateutil>=2.8.0
+
+# Development / Testing
+pytest>=7.0
+pytest-asyncio>=0.21.0
+pytest-cov>=4.0
+black>=24.0
+ruff>=0.1.0

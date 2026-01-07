@@ -1,0 +1,17 @@
+database:
+  path: ./data/jobs.db
+
+scraping:
+  user_agent: "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36"
+  request_delay_seconds: 2
+  max_retries: 3
+  timeout_seconds: 30
+
+parsing:
+  extract_salary: true
+  extract_experience: true
+  extract_skills: true
+
+logging:
+  level: INFO
+  file: ./logs/job_tracker.log

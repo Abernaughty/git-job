@@ -1,0 +1,16 @@
+searches:
+  - name: "Remote Python Jobs"
+    sites: [indeed, linkedin]
+    keywords: "Python Developer"
+    location: "Remote"
+    filters:
+      job_type: full-time
+      posted_within_days: 7
+
+  - name: "Local Data Science"
+    sites: [indeed]
+    keywords: "Data Scientist"
+    location: "San Francisco, CA"
+    filters:
+      experience_level: mid
+      salary_min: 120000
